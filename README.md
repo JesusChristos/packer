@@ -7,5 +7,5 @@ Full in develop vars for digitalocean api key
 Command:
 ```
 packer validate base-docker-node.pkr.hcl
-packer build -var-file develop_vars.pkr.hcl base-docker-node.pkr.hcl
+packer build -var-file develop_vars.pkrvars.hcl base-docker-node.pkr.hcl
 ```
